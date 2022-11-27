@@ -4129,7 +4129,6 @@ h6 {
 }
 
 .video_area {
-	float: right;
 	display: inline-block;
 	position: relative;
 }
