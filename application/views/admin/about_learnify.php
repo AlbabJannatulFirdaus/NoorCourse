@@ -66,7 +66,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 					<div class="sidebar-brand text-danger">
 						<div>
 							<a href="<?= base_url('admin') ?>" style="font-size: 30px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
-								Noor Course <sup>3</sup> </a>
+								Noor Course</a>
 						</div>
 					</div>
 					<div class="sidebar-brand sidebar-brand-sm">

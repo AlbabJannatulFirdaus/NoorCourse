@@ -18,8 +18,13 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+<<<<<<< HEAD
     <title>Learnify - Admin Login</title>
     <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
+=======
+    <title>Noor Course - Admin Login</title>
+    <link rel="icon" href="<?=base_url('assets/')?>img/favicon.png" type="image/png">
+>>>>>>> whendric
     <!-- General CSS Files -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -36,14 +41,25 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
     <!-- Main Content -->
     <div id="app">
+<<<<<<< HEAD
         <section class="section">
             <div class="d-flex flex-wrap align-items-stretch">
                 <div class="col-lg-4 col-md-6 col-12 order-lg-1 min-vh-100 order-2 bg-white">
                     <div class="p-4 m-3">
                         <a href="<?= base_url('welcome') ?>"> <img src="<?= base_url('assets/') ?>/img/logo.png" alt="logo" width="150" class=" mb-5 mt-2"></a>
                         <h4 class="text-dark font-weight-normal">Selamat datang di <span class="font-weight-bold">Learnify</span>
+=======
+        <section class="section" >
+            <div class="d-flex flex-wrap align-items-stretch" >
+                <div class="col-lg-4 col-md-6 col-12 order-lg-1 min-vh-100 order-2  m-auto " style="background-color: #348385;">
+                    <div class="p-4 m-3 " >
+                        <a href="<?=base_url('welcome')?>"> <img src="<?=base_url('assets/')?>/img/logo.png" alt="logo"
+                                width="150" class=" mb-5 mt-2"></a>
+                        <h4 class="text-white font-weight-normal">Selamat datang di <span
+                                class="font-weight-bold">Noor Course</span>
+>>>>>>> whendric
                         </h4>
-                        <p class="text-muted">Sebelum masuk ke halaman admin, anda harus login terlebih dahulu sebagai
+                        <p class="text-white">Sebelum masuk ke halaman admin, anda harus login terlebih dahulu sebagai
                             admin. silahkan isi data dibawah untuk melanjutkan.</p>
                         <form method="post" action="<?= base_url('welcome/admin') ?>" class="needs-validation" novalidate="">
                             <div class="form-group">
@@ -71,6 +87,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                         </form>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div class="col-lg-8 col-12 order-lg-2 order-1 min-vh-100 background-walk-y position-relative overlay-gradient-bottom" data-background="<?= base_url('assets/') ?>stisla-assets/img/unsplash/login-bg.jpg">
                     <div class="absolute-bottom-left index-2">
                         <div class="text-light p-5 pb-2">
@@ -84,10 +101,20 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                         </div>
                     </div>
                 </div>
+=======
+                
+>>>>>>> whendric
             </div>
         </section>
     </div>
     <!-- End Main Content -->
+            <!-- Start Footer -->
+            <footer class="main-footer">
+            <div class="text-left">
+                Copyright &copy; 2020 <div class="bullet"></div>Noor Course</a>
+            </div>
+        </footer>
+        <!-- End Footer -->
 
     <!-- Sweetalert Flashdata -->
 
