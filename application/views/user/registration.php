@@ -31,8 +31,8 @@
 </head>
 
 <body style="background-color: #edf2f7">
-    <!-- Header Menu Area -->
-    <header class="header_area" style="background-color: white !important;">
+<!--================Header Menu Area =================-->
+<header class="header_area">
         <div class="top_menu row m0">
             <div class="container">
                 <div class="float-left">
@@ -46,15 +46,19 @@
                     </ul>
                 </div>
                 <div class="float-right">
-                    <a class="dn_btn" href="mailto:apps.learnify@gmail.com">apps.learnify@gmail.com</a>
+                    <a class="dn_btn" href="mailto:noorcourse@gmail.com">noorcourse@gmail.com</a>
                 </div>
             </div>
         </div>
+
         <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="<?= base_url('welcome') ?>"><img src="<?= base_url('assets/') ?>img/logo.png" alt=""></a>
+                    <div class="float-left">
+                    <a class="navbar-brand logo_h" href="<?= base_url('welcome') ?>"><img src="<?= base_url('assets/') ?>img/logo.png" alt="" width="42px" style="margin: 1px;"></a>
+                    <a class="navbar-brand logo_h" href="<?= base_url('welcome') ?>"><img src="<?= base_url('assets/') ?>img/NC_name.png" alt="" width="50%" height="3%" margin="0%" ></a>
+                    </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -78,7 +82,7 @@
             </nav>
         </div>
     </header>
-    <!-- End Header Menu Area  -->
+    <!--================ END Header Menu Area =================-->
 
     <!-- Home Banner Area  -->
     <section class="banner_area">
