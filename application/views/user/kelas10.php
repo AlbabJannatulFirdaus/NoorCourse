@@ -91,7 +91,6 @@
                                                                         $this->session->userdata('email')])->row_array();
                                                                         echo $data['user']['nama'];
                                                                         ?> - Noor Course Student</h3>
-                        <h5>Mata Pelajaran Kelas X</h5>
                 </div>
             </div>
         </div>
@@ -102,24 +101,27 @@
     <!-- Start Lesson Card -->
     <div class="container">
         <div class="row mt-4 mb-5">
+            <!-- Matematika -->
             <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-right">
                 <a href="<?= base_url('materi/matematika_x') ?>">
                     <div class="card-kelas">
-                        <img src="<?= base_url('assets/') ?>img/matematika.png" class="card-img-top" alt="...">
+                        <img src="<?= base_url('assets/') ?>img/Matematika.jpg" class="card-img-top" alt="..." >
                     </div>
                 </a>
             </div>
+            <!-- Kimia -->
             <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-down">
                 <a href="<?= base_url('materi/ipa_x') ?>">
                     <div class="card-kelas">
-                        <img src="<?= base_url('assets/') ?>img/ipa.png" class="card-img-top" alt="...">
+                        <img src="<?= base_url('assets/') ?>img/kimia-dasar.jpg" class="card-img-top" alt="...">
                     </div>
                 </a>
             </div>
+            <!-- Fisika -->
             <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-left">
                 <a href="<?= base_url('materi/indo_x') ?>">
                     <div class="card-kelas">
-                        <img src="<?= base_url('assets/') ?>img/Bahasa Indonesia.png" class="card-img-top" alt="...">
+                        <img src="<?= base_url('assets/') ?>img/Fisika.jpg" class="card-img-top" alt="...">
                     </div>
                 </a>
             </div>
@@ -128,14 +130,15 @@
     <!-- Lesson Card 2 -->
     <div class="container">
         <div class="row mt-4 mb-5">
+            <!-- Biologi -->
             <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-right">
                 <a href="<?= base_url('materi/inggris_x') ?>">
                     <div class="card-kelas">
-                        <img src="<?= base_url('assets/') ?>img/Bahasa Inggris.png" class="card-img-top" alt="...">
+                        <img src="<?= base_url('assets/') ?>img/biology.jpg" class="card-img-top" alt="...">
                     </div>
                 </a>
             </div>
-            <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-down">
+            <!-- <div class="col-md-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-down">
                 <a href="<?= base_url('materi/agama_x') ?>">
                     <div class="card-kelas">
                         <img src="<?= base_url('assets/') ?>img/agama.png" class="card-img-top" alt="...">
@@ -148,7 +151,7 @@
                         <img src="<?= base_url('assets/') ?>img/Kembali.png" class="card-img-top" alt="...">
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- End Lesson Card -->
