@@ -75,7 +75,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                         </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
-                        <a href="<?= base_url('admin') ?>">LY</a>
+                        <a href="<?= base_url('admin') ?>">NC</a>
                     </div>
                     <ul class="sidebar-menu">
                         <li class="menu-header ">Dashboard</li>
