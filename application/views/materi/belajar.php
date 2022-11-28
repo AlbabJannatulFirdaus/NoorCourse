@@ -96,7 +96,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                                         $this->session->userdata('email')])->row_array();
                                                                         echo $data['user']['nama'];
                                                                         ?> - Learnify Students</h3>
-                        <p><?= $detail->nama_mapel ?> - Kelas <?= $detail->kelas ?></p>
+                        <p><?= $detail->nama_mapel ?></p>
                         <hr align="left" width="600;">
                         <p style="line-height: 3px;">Kita akan mempelajari tentang</p>
                         <p class="font-weight-bold mt--5">
@@ -125,7 +125,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <div class="container">
         <div class="row mt-4">
             <div class="col-md-12 w-150 mb-4">
-                <div class="card materi border-0">
+                <!-- <div class="card materi border-0"> -->
                     <div class="card-body p-5">
                         <h1 class="card-title display-4"><?= $detail->nama_guru; ?></h1>
                         <hr style="background-color: white;">
