@@ -101,7 +101,7 @@
                 <div class="col-md-10 mb-4 mx-auto" data-aos="fade-right" data-aos-duration="1200">
                     <div class="card materi w-150 border-0">
                         <div class="card-body p-5">
-                            <h1 class="card-title"><?= $u->nama_guru; ?></h1>
+                            <!-- <h1 class="card-title"><?= $u->nama_guru; ?></h1> -->
                             <p class=" card-text">
                                 <?= substr($u->deskripsi, 0, 100); ?>&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.
                             </p>
