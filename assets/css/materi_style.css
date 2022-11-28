@@ -36,13 +36,13 @@ body {
 }
 
 .materi {
-	background: linear-gradient(135deg, #42e695 0%, #3bb2b8 100%);
+	background-color: #ffffff
 	color: white !important;
 	width: 100%;
 }
 
-.btn-white {
-	background-color: white;
+.btn-primary {
+	background-color: #348385;
 	border-radius: 6px;
 	box-shadow:
 		0 2.8px 2.2px rgba(0, 0, 0, 0.006),

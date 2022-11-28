@@ -20,7 +20,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
-    <title>Matematika | Kelas X - Learnify</title>
+    <title>Matematika</title>
     <!-- Bootstrap CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url('assets/') ?>css/bootstrap.css">
@@ -82,18 +82,16 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
     <!-- Start Greeting Cards -->
     <div class="container">
-        <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400" style="width: 100%; border-radius:10px;">
+        <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400" style="width: 83%; border-radius:10px;">
             <div class="row" style="color: black; font-family: 'poppins';">
                 <div class="col-md-12 mt-1 text-center">
-                    <h1 class="display-4" data-aos="fade-down" data-aos-duration="1400">Silahkan pilih materi yang akan
-                        kamu pelajari !
-                    </h1>
+                    <h1 class="display-4" data-aos="fade-down" data-aos-duration="1400"></h1>
                     <h4 data-aos="fade-down" data-aos-duration="1700"><?php
                                                                         $data['user'] = $this->db->get_where('siswa', ['email' =>
                                                                         $this->session->userdata('email')])->row_array();
                                                                         echo $data['user']['nama'];
-                                                                        ?> - Learnify Students</h4>
-                    <p>Matematika - Kelas X</p>
+                                                                        ?> - Noor Course Student</h4>
+                    <p>Matematika </p>
                     <hr width="80%">
                     <p data-aos="fade-down" class="font-weight-bold" data-aos-duration="1800">Silahkan pilih materi yang
                         akan kamu akses
@@ -111,14 +109,13 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <div class="container">
         <div class="row mt-4">
             <?php foreach ($materi as $u) { ?>
-                <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1200">
-                    <div class="card materi w-150 border-0">
+                <div class="col-md-10 mb-4 mx-auto " data-aos="fade-down" data-aos-duration="1200" style=:width:100%;">
+                    <div class="card materi w-150 border-0 bg:white " >
                         <div class="card-body p-5">
-                            <h1 class="card-title"><?= $u->nama_guru; ?></h1>
                             <p class=" card-text">
                                 <?= substr($u->deskripsi, 0, 100); ?>&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.
                             </p>
-                            <a href="<?php echo site_url('materi/belajar/' . $u->id); ?>" class="btn btn-white">Pelajari
+                            <a href="<?php echo site_url('materi/belajar/' . $u->id); ?>" class="btn btn-primary">Pelajari
                                 Sekarang !</a>
                         </div>
                     </div>

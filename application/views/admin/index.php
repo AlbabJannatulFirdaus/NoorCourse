@@ -17,7 +17,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Admin Dashboard - Learnify</title>
+    <title>Admin Dashboard - Noor Course</title>
     <!-- General CSS Files -->
     <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
@@ -51,7 +51,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                                                                     ?></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <div class="dropdown-title">Admin - Learnify</div>
+                            <div class="dropdown-title">Admin - Noor Course</div>
                             <a href="<?= base_url('welcome/logout') ?>" class="dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
@@ -64,7 +64,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <div class="sidebar-brand text-danger">
                         <div>
                             <a href="<?= base_url('admin') ?>" style="font-size: 30px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
-                                Learnify <sup>3</sup></a>
+                            Noor Course <sup>3</sup></a>
                         </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
@@ -75,22 +75,22 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                         <li class="nav-item dropdown active">
                             <a href="<?= base_url('admin') ?>" class="nav-link"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
-                        <li class="menu-header">Management Siswa</li>
+                        <li class="menu-header">Management Mahasiswa</li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-user"></i>
-                                <span>Siswa</span></a>
+                                <span>Mahasiswa</span></a>
                             <ul class="dropdown-menu">
                                 <li><a class="nav-link" href="<?= base_url('admin/data_siswa') ?>">Data Siswa</a></li>
                             </ul>
                         </li>
-                        <li class="menu-header">Management Guru</li>
+                        <li class="menu-header">Management Mentor/li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
-                                <span>Guru</span></a>
+                                <span>Mentor</span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="nav-link" href="<?= base_url('admin/data_guru') ?>">Data Guru</a>
+                                <li><a class="nav-link" href="<?= base_url('admin/data_guru') ?>">Data Mentor</a>
                                 </li>
-                                <li><a class="nav-link" href="<?= base_url('admin/add_guru') ?>">Tambah Data Guru</a>
+                                <li><a class="nav-link" href="<?= base_url('admin/add_guru') ?>">Tambah Data Mentor</a>
                                 </li>
                             </ul>
                         </li>
@@ -114,7 +114,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                         Pembuat</a>
                                 </li>
                                 <li><a class="nav-link" href="<?= base_url('admin/about_learnify') ?>">Tentang
-                                        Learnify</a>
+                                Noor Course</a>
                                 </li>
                             </ul>
                         </li>
@@ -136,7 +136,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                 </div>
                                 <div class="card-wrap">
                                     <div class="card-header">
-                                        <h4>Siswa</h4>
+                                        <h4>Mahasiswa</h4>
                                     </div>
                                     <div class="card-body">
                                         <?php echo $this->db->count_all('siswa'); ?>
@@ -211,7 +211,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                 <p class="lead">After I ran into Helen at a restaurant, I realized she was just office pretty drop-dead date put in in a deck for our standup today. Who's responsible for the ask for this request? but moving the goalposts gain traction.</p>
                                 <div class="mt-4">
                                     <a href="<?= base_url('admin/data_siswa') ?>" class="btn btn-outline-white btn-lg btn-icon icon-left"><i class="far fa-user"></i>
-                                        Data Siswa</a>
+                                        Data Mahasiswa</a>
                                 </div>
                             </div>
                         </div>
@@ -222,7 +222,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <!-- Start Footer -->
             <footer class="main-footer">
                 <div class="text-center">
-                    Copyright &copy; 2020 <div class="bullet"></div><a href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
+                    Copyright &copy; 2022 <div class="bullet"></div><a href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
                 </div>
             </footer>
             <!-- End Footer -->
