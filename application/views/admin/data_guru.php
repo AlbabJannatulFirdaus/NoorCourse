@@ -57,7 +57,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                                                                     ?></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <div class="dropdown-title">Admin - Learnify</div>
+                            <div class="dropdown-title">Admin - Noor Course</div>
                             <a href="<?= base_url('welcome/logout') ?>" class="dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
@@ -70,7 +70,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <div class="sidebar-brand text-danger">
                         <div>
                             <a href="<?= base_url('admin') ?>" style="font-size: 30px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
-                                Learnify <sup>3</sup> </a>
+                                Noor Course </a>
                         </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
