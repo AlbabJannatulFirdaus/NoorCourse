@@ -251,13 +251,15 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <!-- End Sweetalert -->
 
 
-    <!-- Start Footer -->
-    <footer class="main-footer">
-        <div class="text-center">
-            Copyright &copy; 2020 <div class="bullet"></div> <a href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
-        </div>
-    </footer>
-    <!-- End Footer -->
+        <!-- End Main Content -->
+
+        <!-- Start Footer -->
+        <footer class="main-footer">
+            <div class="text-center">
+                Copyright &copy; 2020 <div class="bullet"></div>Noor Course</a>
+            </div>
+        </footer>
+        <!-- End Footer -->
 
 
     <!-- General JS Scripts -->
