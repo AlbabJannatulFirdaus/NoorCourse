@@ -57,7 +57,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                                                                     ?></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <div class="dropdown-title">Admin - Learnify</div>
+                            <div class="dropdown-title">Admin - NoorCourse</div>
                             <a href="<?= base_url('welcome/logout') ?>" class="dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
@@ -134,7 +134,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <section class="section">
                     <div class="card" style="width:100%;">
                         <div class="card-body">
-                            <h2 class="card-title" style="color: black;">Management Data Guru Learnify</h2>
+                            <h2 class="card-title" style="color: black;">Management Data Guru NoorCourse</h2>
                             <hr>
                             <p class="card-text"> After I ran into Helen at a restaurant, I realized she was just office pretty drop-dead date put in in a deck for our standup today. Who's responsible for the ask for this request? who's responsible for the ask for this request? but moving the goalposts gain traction. </p>
                             <a href="<?= base_url('admin/add_guru') ?>" class="btn btn-success">Tambah
