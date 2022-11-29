@@ -84,7 +84,7 @@
 <!--================Finance Area =================-->
 <section class="finance_area">
 	<div class="container">
-		<div class="finance_inner row">
+	<div class="finance_inner row">
 			<div class="col-lg-3 col-sm-6">
 				<div class="finance_item">
 					<div data-aos="fade-right" data-aos-duration="1600" class="media">
