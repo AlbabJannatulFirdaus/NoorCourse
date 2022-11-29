@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
-    <title>Learnify - Belajar Dimana Saja & Kapan Saja!</title>
+    <title>Noor Course</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/') ?>css/bootstrap.css">
     <link rel="stylesheet" href="<?= base_url('assets/') ?>vendors/linericon/style.css">
@@ -108,7 +108,7 @@
         <div class="row bg-registration p-3">
             <div class="col-md-12 text-center">
                 <p class="registration-title font-weight-bold display-4 mt-4" style="font-size: 50px;">
-                    Pendaftaran Learnify</p>
+                    Pendaftaran Noor Course</p>
                 <p style="line-height:-30px;margin-top:-20px;">Silahkan isi data data yang diperlukan dibawah ini </p>
                 <hr>
             </div>
