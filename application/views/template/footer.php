@@ -62,7 +62,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         <div class="modal-content">
             <div class="modal-header">
                 <h2 class="modal-title text-dark font-weight-bold" style="color:#212529 !important;" id="exampleModalCenterTitle">
-                    Learnify - Masuk Sekarang</h2>
+                    Noor Course - Masuk Sekarang</h2>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -103,8 +103,13 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                     belum punya akun? daftar <a href=" <?= base_url('user/registration') ?>">
                                         disini.</a>
                                 </p>
-                                <button class="btn btn-block font-weight-bold" style="background-color: #4dbf1c;color:white;font-size:18px;">Login
+                                <button class="btn btn-block font-weight-bold" style="background-color: #348385;color:white;font-size:18px;">Login
                                     Sekarang!</button>
+                                <p class="text-center p-3" >
+                                <i>Lupa Password ? </i> <a href=" <?= base_url('user/registration') ?>">
+                                        Klik Disini.</a>
+                                </p>
+                                    
                             </form>
                         </div>
                     </div>

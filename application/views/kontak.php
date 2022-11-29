@@ -19,7 +19,7 @@
 <!--================Contact Area =================-->
 <section class="contact_area p_40">
     <div class="container">
-        <div style="width: 100%"><iframe width="100%" height="600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.27572639320454!2d105.31994046377162!3d-5.353986709330647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40c3cd887a48c5%3A0x7ddab105a8b87331!2sWARUNG%20TAMBANG%20(WARTAM)!5e0!3m2!1sid!2sid!4v1669683557958!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a></iframe></div><br />
+        <div style="width: 100%"><iframe width="100%" height="600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1215.6135799209487!2d105.31834858036478!3d-5.352788334945694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40c35bd2920943%3A0xe25464be4e39dc8d!2sKantin%20%223m%22!5e0!3m2!1sid!2sid!4v1669686857683!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe></a></iframe></div><br />
         <div class="row">
             <div class="col-lg-9">
                 <div class="contact_info">
