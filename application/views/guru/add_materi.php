@@ -429,18 +429,13 @@ echo $data['user']['nama_mapel'];?>" class="form-control" id="inputEmail4">
                 <!--end:: Widgets/Order Statistics-->
 
 
-                <!-- begin:: Footer -->
-                <div class="kt-footer kt-grid__item kt-grid kt-grid--desktop kt-grid--ver-desktop">
-                    <div class="kt-footer__copyright">
-                        2019&nbsp;&copy;&nbsp;<a href="https://syauqizaidan.github.io/" target="_blank"
-                            class="kt-link">Syaauqi Zaaidan & Descienfy</a>
-                    </div>
-                    <div class="kt-footer__menu">
-                        Made with &nbsp; <span class="" style="color: red"> &#10084;</span> &nbsp; by Syaauqi
-                    </div>
-                </div>
-
-                <!-- end:: Footer -->
+        <!-- Start Footer -->
+        <footer class="main-footer">
+            <div class="text-center">
+                Copyright &copy; 2020 <div class="bullet"></div>Noor Course</a>
+            </div>
+        </footer>
+        <!-- End Footer -->
             </div>
         </div>
     </div>
