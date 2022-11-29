@@ -18,7 +18,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Data Detail Siswa - Learnify </title>
+    <title>Data Detail Siswa - Noor Course </title>
     <!-- General CSS Files -->
     <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
@@ -56,7 +56,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                                                                     ?></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <div class="dropdown-title">Admin - Learnify</div>
+                            <div class="dropdown-title">Admin - Noor Course</div>
                             <a href="<?= base_url('welcome/logout') ?>" class="dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
@@ -69,11 +69,11 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <div class="sidebar-brand text-danger">
                         <div>
                             <a href="<?= base_url('admin') ?>" style="font-size: 30px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
-                                Learnify <sup>3</sup> </a>
+                                Noor Course</a>
                         </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
-                        <a href="<?= base_url('admin') ?>">LY</a>
+                        <a href="<?= base_url('admin') ?>">NC</a>
                     </div>
 
                     <ul class="sidebar-menu">
@@ -192,13 +192,13 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     </div>
     <!-- End Main Content -->
 
-    <!-- Start Footer -->
-    <footer class="main-footer">
-        <div class="text-center">
-            Copyright &copy; 2020 <div class="bullet"></div> <a href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
-        </div>
-    </footer>
-    <!-- End Footer -->
+        <!-- Start Footer -->
+        <footer class="main-footer">
+            <div class="text-center">
+                Copyright &copy; 2020 <div class="bullet"></div>Noor Course</a>
+            </div>
+        </footer>
+        <!-- End Footer -->
 
     <!-- General JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

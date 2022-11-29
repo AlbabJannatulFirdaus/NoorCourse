@@ -4066,7 +4066,7 @@ h6 {
 /*----------------------------------------------------*/
 /* About Area css
 ============================================================================================ */
-.about_inner .accordion .card {
+.about_inner .accordion . {
 	border: none;
 	margin-bottom: 10px;
 }
@@ -4129,7 +4129,6 @@ h6 {
 }
 
 .video_area {
-	float: right;
 	display: inline-block;
 	position: relative;
 }

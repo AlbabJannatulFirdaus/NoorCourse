@@ -64,11 +64,11 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <div class="sidebar-brand text-danger">
                         <div>
                             <a href="<?= base_url('admin') ?>" style="font-size: 30px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
-                            Noor Course</a>
+                            Noor Course <sup>3</sup></a>
                         </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
-                        <a href="<?= base_url('admin') ?>">LY <sup>3</sup></a>
+                        <a href="<?= base_url('admin') ?>">NC</a>
                     </div>
                     <ul class="sidebar-menu">
                         <li class="menu-header ">Dashboard</li>
@@ -219,13 +219,13 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 </section>
             </div>
 
-            <!-- Start Footer -->
-            <footer class="main-footer">
-                <div class="text-center">
-                    Copyright &copy; 2022 <div class="bullet"></div><a href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
-                </div>
-            </footer>
-            <!-- End Footer -->
+        <!-- Start Footer -->
+        <footer class="main-footer">
+            <div class="text-center">
+                Copyright &copy; 2020 <div class="bullet"></div>Noor Course</a>
+            </div>
+        </footer>
+        <!-- End Footer -->
 
         </div>
     </div>

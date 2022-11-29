@@ -36,11 +36,9 @@
     </script>
 
 </head>
-
 <body>
-
-    <!--================Header Menu Area =================-->
-    <header class="header_area">
+<!--================Header Menu Area =================-->
+<header class="header_area">
         <div class="top_menu row m0">
             <div class="container">
                 <div class="float-left">
@@ -54,13 +52,13 @@
                     </ul>
                 </div>
                 <div class="float-right">
-                    <a class="dn_btn" href="mailto:apps.learnify@gmail.com">apps.learnify@gmail.com</a>
+                    <a class="dn_btn" href="mailto:noorcourse@gmail.com">noorcourse@gmail.com</a>
                 </div>
             </div>
         </div>
 
         <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <a class="navbar-brand logo_h" href="<?= base_url('welcome') ?>"><img src="<?= base_url('assets/') ?>img/NC_LOGO.png" alt=""></a>
@@ -70,6 +68,8 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- Collect the nav links, forms, and other content for toggling -->
+                    <a href="<?= base_url('welcome') ?>"><img class="image" src="assets/img/logo.png" width="42px" style="margin: 1px;"></a>
+                    <img class="image" src="assets/img/NC_name.png"  width="10%" height="5%" style="margin: 1px;">
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item" id="nav"><a class="nav-link" href="<?= base_url('welcome') ?>">Beranda</a></li>
@@ -88,3 +88,6 @@
         </div>
     </header>
     <!--================ END Header Menu Area =================-->
+</body>
+        
+        

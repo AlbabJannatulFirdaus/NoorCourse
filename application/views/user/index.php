@@ -25,7 +25,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                             $data['user'] = $this->db->get_where('siswa', ['email' =>
                             $this->session->userdata('email')])->row_array();
                             echo $data['user']['nama'];
-                            ?> - Learnify Student Page</title>
+                            ?> - Noor Course Student</title>
     <!-- Bootstrap CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url('assets/') ?>css/bootstrap.css">
@@ -91,9 +91,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <div class="row" style="color: black; font-family: 'poppins';">
                 <div class="col-md-12 mt-1">
                     <h1 class="display-4" style="color: black; font-family:'poppins';" data-aos="fade-down" data-aos-duration="1400">Selamat Datang
-                        di Learnify <span style="font-size: 40px;">👋🏻
+                        di Noor Course <span style="font-size: 40px;">👋🏻
                         </span> </h1>
-                    <p>Hello Students! , Ini merupakan halaman utama learnify ! Silahkan pilih kelas yang akan kamu
+                    <p>Hello Students! , Ini merupakan halaman utama Noor Course! Silahkan pilih kelas yang akan kamu
                         akses
                         dan pilih mata pelajaran yang ingin kamu pelajari. Selamat belajar ya students!</p>
                     <hr>
@@ -101,7 +101,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                                                                 $data['user'] = $this->db->get_where('siswa', ['email' =>
                                                                                                 $this->session->userdata('email')])->row_array();
                                                                                                 echo $data['user']['nama'];
-                                                                                                ?> - Learnify Students</h3>
+                                                                                                ?> - Noor Course</h3>
                         <p data-aos="fade-down" data-aos-duration="1800">Silahkan pilih kelas yang akan kamu akses
                             dibawah
                             ini!
