@@ -163,7 +163,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
                 <!-- begin:: Aside Menu -->
                 <div class="kt-aside-menu-wrapper kt-grid__item kt-grid__item--fluid" id="kt_aside_menu_wrapper">
-                    <div id="kt_aside_menu" class="kt-aside-menu  kt-aside-menu--dropdown " data-ktmenu-vertical="1"
+                    <div id="kt_aside_menu" class="kt-aside-menu  kt-aside-menu--dropdown " style="background-color:#348385" data-ktmenu-vertical="1"
                         data-ktmenu-dropdown="1" data-ktmenu-scroll="0">
                         <ul class="kt-menu__nav ">
                             <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--submenu-fullheight kt-menu__item--open kt-menu__item--here"
@@ -302,7 +302,7 @@ echo $data['user']['nama_guru'];
                                                 Tambah data materi
                                             </div>
                                             <div class="kt-notification__item-time">
-                                                Tambah Materi Learnify
+                                                Tambah Materi Noor Course
                                             </div>
                                         </div>
                                     </a>
@@ -388,7 +388,7 @@ echo $data['user']['nama_guru'];
                                             </h1>
                                             <div class="kt-widget19__shadow"></div>
                                             <div class="kt-widget19__labels">
-                                                <a href="#" class="btn btn-label-light-o2 btn-bold btn-sm ">Learnify</a>
+                                                <a href="#" class="btn btn-label-light-o2 btn-bold btn-sm ">Noor Course</a>
                                             </div>
                                         </div>
                                     </div>
@@ -409,11 +409,11 @@ echo $data['user']['nama_guru'];
                                                 </div>
                                             </div>
                                             <div class="kt-widget19__text">
-                                                Selamat datang di halaman guru Learnify, anda dapat menambah materi .
-                                                Dalam materi anda dapat memasukan video, dan deskripsi nya. Seemoga anda
-                                                dapat menikmati Learnify!, kontak Administrator jika terjadi masalah
+                                                Selamat datang di halaman guru , anda dapat menambah materi .
+                                                Dalam materi anda dapat memasukan video, dan deskripsi nya. Semoga anda
+                                                dapat menikmati Noor Course!, kontak Administrator jika terjadi masalah
                                                 apapun yang terkait upload materi. Terima kasih telah menggunakan
-                                                learnify!
+                                                Noor Course!
                                                 <br>
                                                 Selamat Bekerja :)
                                             </div>
@@ -433,18 +433,13 @@ echo $data['user']['nama_guru'];
                         <!--end:: Widgets/Order Statistics-->
 
 
-                        <!-- begin:: Footer -->
-                        <div class="kt-footer kt-grid__item kt-grid kt-grid--desktop kt-grid--ver-desktop">
-                            <div class="kt-footer__copyright">
-                                2020&nbsp;&copy;&nbsp;<a href="https://syauqizaidan.github.io/" target="_blank"
-                                    class="kt-link">Syaauqi Zaaidan & Descienfy</a>
-                            </div>
-                            <div class="kt-footer__menu">
-                                Made with &nbsp; <span class="" style="color: red"> &#10084;</span> &nbsp; by Syaauqi
-                            </div>
-                        </div>
-
-                        <!-- end:: Footer -->
+        <!-- Start Footer -->
+        <footer class="main-footer">
+            <div class="text-center">
+                Copyright &copy; 2020 <div class="bullet"></div>Noor Course</a>
+            </div>
+        </footer>
+        <!-- End Footer -->
                     </div>
                 </div>
             </div>

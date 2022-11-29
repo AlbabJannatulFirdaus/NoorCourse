@@ -38,13 +38,13 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 <body>
     <div id="app">
         <section class="section">
-            <div class="d-flex flex-wrap align-items-stretch">
-                <div class="col-lg-4 col-md-6 col-12 order-lg-1 min-vh-100 order-2 bg-white">
+            <div class="d-flex flex-wrap align-items-stretch ">
+                <div class="col-lg-4 col-md-6 col-12 order-lg-1 min-vh-100 order-2 m-auto" style="background-color: #348385;">
                     <div class="p-4 m-3">
                         <a href="<?= base_url('welcome') ?>"> <img src="<?= base_url('assets/') ?>/img/logo.png" alt="logo" width="150" class=" mb-5 mt-2"></a>
-                        <h4 class="text-dark font-weight-normal">Selamat datang di <span class="font-weight-bold">Learnify</span>
+                        <h4 class="text-dark font-weight-normal">Selamat datang di <span class="font-weight-bold">Noor Course</span>
                         </h4>
-                        <p class="text-muted">Sebelum masuk ke halaman guru, anda harus login terlebih dahulu sebagai
+                        <p class="text-white">Sebelum masuk ke halaman guru, anda harus login terlebih dahulu sebagai
                             guru. silahkan isi data dibawah untuk melanjutkan.</p>
                         <form method="post" action="<?= base_url('welcome/guru') ?>" class="needs-validation" novalidate="">
                             <div class="form-group">
@@ -72,21 +72,16 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-8 col-12 order-lg-2 order-1 min-vh-100 background-walk-y position-relative overlay-gradient-bottom" data-background="<?= base_url('assets/') ?>stisla-assets/img/unsplash/ss.jpg">
-                    <div class="absolute-bottom-left index-2">
-                        <div class="text-light p-5 pb-2">
-                            <div class="mb-5 pb-3">
-                                <h1 class="mb-2 display-4 font-weight-bold text-white">Selamat datang, Guru!</h1>
-                                <h5 class="font-weight-normal text-muted-transparent text-white">Silahkan login untuk
-                                    masuk ke
-                                    halaman guru.</h5>
-                            </div>
-                            Made with <span class="text-danger"> &#10084;</span> by <a class="text-light bb" target="_blank" href="https://syauqizaidan.github.io/">Syaauqi Zaaidan</a> - Image by <a class="text-light bb" target="_blank" href="https://unsplash.com">Unsplash</a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
+                <!-- Start Footer -->
+                <footer class="main-footer">
+            <div class="text-left">
+                Copyright &copy; 2020 <div class="bullet"></div>Noor Course</a>
+            </div>
+        </footer>
+        <!-- End Footer -->
     </div>
 
     <!-- Start Sweetalert Flashdata -->

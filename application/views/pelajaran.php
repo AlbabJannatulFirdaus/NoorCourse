@@ -17,100 +17,61 @@
 <!--================End Home Banner Area =================-->
 
 <!--================Courses Area =================-->
-<section class="courses_area p_40">
-    <div class="container">
-        <div class="main_title">
-            <h2 data-aos="fade-up" data-aos-duration="1600">Pelajaran Yang Tersedia di Learnify</h2>
+        <div class="main_title p-4">
+            <h2 data-aos="fade-up" data-aos-duration="1600">Pelajaran Yang Tersedia di Noor Course</h2>
             <p data-aos="fade-up" data-aos-duration="1800">Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free.</p>
         </div>
-        <div class="row courses_inner">
-            <div class="col-lg-9">
-                <div class="grid_inner">
-                    <div class="grid_item wd55">
-                        <div class="courses_item" data-aos="fade-right" data-aos-duration="1800">
-                            <img src="<?= base_url('assets/') ?>img/courses/course-1.jpg" alt="">
-                            <div class="hover_text">
-                                <a class="cat" href="#">Gratis</a>
-                                <a href="javaScript:void(0);">
-                                    <h4>Kelas Matematika Gratis</h4>
-                                </a>
-                                <ul class="list">
-                                    <li><a href="#"><i class="lnr lnr-users"></i>54</a></li>
-                                    <li><a href="#"><i class="lnr lnr-bubble"></i> 0</a></li>
-                                    <li><a href="#"><i class="lnr lnr-user"></i>Guru Matematika SMKN 1 Ciamis</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid_item wd44">
-                        <div class="courses_item" data-aos="fade-down" data-aos-duration="1800">
-                            <img src="<?= base_url('assets/') ?>img/courses/course-2.jpg" alt="">
-                            <div class="hover_text">
-                                <a class="cat" href="#">Gratis</a>
-                                <a href="javaScript:void(0);">
-                                    <h4>Kelas IPA Gratis</h4>
-                                </a>
-                                <ul class="list">
-                                    <li><a href="#"><i class="lnr lnr-users"></i> 34</a></li>
-                                    <li><a href="#"><i class="lnr lnr-bubble"></i> 0</a></li>
-                                    <li><a href="#"><i class="lnr lnr-user"></i> Guru IPA SMKN 1 Ciamis</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid_item wd44">
-                        <div class="courses_item" data-aos="fade-right" data-aos-duration="1800">
-                            <img src="<?= base_url('assets/') ?>img/courses/course-4.jpg" alt="">
-                            <div class="hover_text">
-                                <a class="cat" href="#">Gratis</a>
-                                <a href="javaScript:void(0);">
-                                    <h4>Kelas Bahasa Inggris Gratis</h4>
-                                </a>
-                                <ul class="list">
-                                    <li><a href="#"><i class="lnr lnr-users"></i> 63</a></li>
-                                    <li><a href="#"><i class="lnr lnr-bubble"></i> 0</a></li>
-                                    <li><a href="#"><i class="lnr lnr-user"></i> Guru English SMKN 1 Ciamis</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid_item wd55">
-                        <div class="courses_item" data-aos="fade-up" data-aos-duration="1800">
-                            <img src="<?= base_url('assets/') ?>img/courses/course-5.jpg" alt="">
-                            <div class="hover_text">
-                                <a class="cat" href="#">Gratis</a>
-                                <a href="javaScript:void(0);">
-                                    <h4>Kelas Bahasa Indonesia Gratis</h4>
-                                </a>
-                                <ul class="list">
-                                    <li><a href="#"><i class="lnr lnr-users"></i> 24</a></li>
-                                    <li><a href="#"><i class="lnr lnr-bubble"></i> 0</a></li>
-                                    <li><a href="#"><i class="lnr lnr-user"></i> Guru Indonesia SMKN 1 Ciamis</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="course_item" data-aos="fade-left" data-aos-duration="1800">
-                    <img src="<?= base_url('assets/') ?>img/courses/course-3.jpg" alt="">
-                    <div class="hover_text">
-                        <a class="cat" href="#">Gratis</a>
-                        <a href="javaScript:void(0);">
-                            <h4>Kelas Pendidikan Agama Islam Gratis</h4>
-                        </a>
-                        <ul class="list">
-                            <li><a href="#"><i class="lnr lnr-users"></i> 35</a></li>
-                            <li><a href="#"><i class="lnr lnr-bubble"></i> 0</a></li>
-                            <li><a href="#"><i class="lnr lnr-user"></i> Guru Agama SMKN 1 Ciamis</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<div data-aos="fade-up" data-aos-duration="1600" id="fisdas" class="container-2 d-flex align-items-center justify-content-center">
+  <div data-aos="fade-up" data-aos-duration="2000" class="main1 d-flex flex-sm-column flex-lg-row align-items-center justify-content-between">
+    <div data-aos="fade-up" data-aos-duration="1800" class="w-100 p-3 d-sm-flex d-lg-block flex-sm-column align-items-center justify-content-center">
+      <h1>Fisika Dasar</h1>
+      <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
+      <button type="button" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#exampleModalCenter" >Gabung Sekarang</button>
     </div>
-</section>
+    <div class="landingpage-img-2 w-75">
+      <img class="w-100" src="<?= base_url('assets/') ?>img/fisika.png">
+    </div>
+  </div>
+</div>
+
+<div data-aos="fade-up" data-aos-duration="1600" id="kimdas" class="container-2 d-flex align-items-center justify-content-center">
+  <div data-aos="fade-up" data-aos-duration="2200" class="main1 d-flex flex-sm-column flex-lg-row-reverse align-items-center justify-content-between">
+    <div data-aos="fade-up" data-aos-duration="1800" class="w-100 p-3 d-sm-flex d-lg-block flex-sm-column align-items-center justify-content-center">
+      <h1>Fisika Dasar</h1>
+      <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
+      <button type="button" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#exampleModalCenter" >Gabung Sekarang</button>
+    </div>
+    <div class="landingpage-img-2 w-75">
+      <img class="w-100" src="<?= base_url('assets/') ?>img/fisika.png">
+    </div>
+  </div>
+</div>
+
+<div data-aos="fade-up" data-aos-duration="1600" id="matdas" class="container-3 d-flex align-items-center justify-content-center">
+  <div data-aos="fade-up" data-aos-duration="2000" class="color-white main1 d-flex flex-sm-column flex-lg-row align-items-center justify-content-between">
+    <div data-aos="fade-up" data-aos-duration="1800" class="w-100 p-3 d-sm-flex d-lg-block flex-sm-column align-items-center justify-content-center">
+      <h1>Matematika Dasar</h1>
+      <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
+      <button type="button" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#exampleModalCenter" >Gabung Sekarang</button>
+    </div>
+    <div class="landingpage-img-2 w-75">
+      <img class="w-100" src="<?= base_url('assets/') ?>img/fisika.png">
+    </div>
+  </div>
+</div>
+
+<div data-aos="fade-up" data-aos-duration="1600" id="biodas" class="container-2 d-flex align-items-center justify-content-center">
+  <div data-aos="fade-up" data-aos-duration="2000" class="main1 d-flex flex-sm-column flex-lg-row-reverse align-items-center justify-content-between">
+    <div class="w-100 p-3 d-sm-flex d-lg-block flex-sm-column align-items-center justify-content-center">
+      <h1 data-aos="fade-up" data-aos-duration="2000" >Biologi Dasar</h1>
+      <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
+      <button type="button" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#exampleModalCenter" >Gabung Sekarang</button>
+    </div>
+    <div class="landingpage-img-2 w-75">
+      <img class="w-100" src="<?= base_url('assets/') ?>img/fisika.png">
+    </div>
+  </div>
+</div>
+</div>
 <!--================End Courses Area =================-->
