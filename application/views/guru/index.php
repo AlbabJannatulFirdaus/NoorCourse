@@ -163,7 +163,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
                 <!-- begin:: Aside Menu -->
                 <div class="kt-aside-menu-wrapper kt-grid__item kt-grid__item--fluid" id="kt_aside_menu_wrapper">
-                    <div id="kt_aside_menu" class="kt-aside-menu  kt-aside-menu--dropdown " data-ktmenu-vertical="1"
+                    <div id="kt_aside_menu" class="kt-aside-menu  kt-aside-menu--dropdown " style="background-color:#348385" data-ktmenu-vertical="1"
                         data-ktmenu-dropdown="1" data-ktmenu-scroll="0">
                         <ul class="kt-menu__nav ">
                             <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--submenu-fullheight kt-menu__item--open kt-menu__item--here"
