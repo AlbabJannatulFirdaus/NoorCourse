@@ -5,7 +5,7 @@
         </div>
         <div class="container">
             <div class="banner_content text-center">
-                <h2 data-aos="fade-up" data-aos-duration="1600">Tentang Learnify</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1600">Tentang Noor Course</h2>
                 <div data-aos="fade-up" data-aos-duration="1800" class="page_link">
                     <a href="<?= base_url('welcome') ?>">Beranda</a>
                     <a href="">Tentang</a>
@@ -20,11 +20,11 @@
 <section class="about_area p_60">
     <div class="container">
         <div class="main_title">
-            <h2 data-aos="fade-up" data-aos-duration="1600" style="font-size: 33px !important;">Tentang Learnify - Web Edukasi Open Source</h2>
-            <p data-aos="fade-up" data-aos-duration="1800">Learnify adalah Web Edukasi Open-Source yang dibuat oleh <a href="https://web.facebook.com/syaaauqi">Syauqi Zaidan Khairan Khalaf.</a> Website
-                pembelajaran dimana para siswa dapat belajar dimana saja dan kapan saja.
-                Guru dapat mengupload video dirinya sendiri sedang mengajar, sehingga tanpa takut adanya jam
-                kosong atau pun keadaan yang tidak terduga apapun karena Learnify dapat diakses dimana saja dan
+            <h2 data-aos="fade-up" data-aos-duration="1600" style="font-size: 33px !important;">Tentang Noor Course </h2>
+            <p data-aos="fade-up" data-aos-duration="1800">Noor Course merupakan tempat bimbel TPB yang terpercaya dengan dimentori oleh ahli dibidangnya yang dibagun oleh <a href="https://www.instagram.com/hafifrestu/">Hafif Restu Kurniadi.</a> Website
+                Course dimana para siswa dapat belajar dimana saja dan kapan saja.
+                Guru/Mentor dapat mengupload video dirinya sendiri sedang mengajar, sehingga tanpa takut adanya jam
+                kosong atau pun keadaan yang tidak terduga apapun karena Noor Course dapat diakses dimana saja dan
                 kapan saja.
             </p>
         </div>
@@ -92,7 +92,7 @@
             <div class="col-lg-6">
                 <div class="video_area" id="video">
                     <img class="img-fluid" src="<?= base_url('assets/') ?>img/video-1.jpg" alt="" />
-                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=FZmbSq2W1hY">
+                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=lxk_UMEtr-g">
                         <img src="<?= base_url('assets/') ?>img/icon/video-icon-1.png" alt="" />
                     </a>
                 </div>
@@ -111,7 +111,7 @@
 <section class="team_area p_20">
     <div class="container">
         <div class="main_title">
-            <h2 data-aos="fade-up" data-aos-duration="1800">Testimonial Para Siswa Learnify</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1800">Testimonial Para Siswa Noor Course</h2>
             <p data-aos="fade-up" data-aos-duration="2000">Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free.</p>
         </div>
         <section class="testimonials_area p_20">

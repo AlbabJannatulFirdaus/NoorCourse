@@ -91,7 +91,7 @@
             </div>
             <div class="container">
                 <div class="banner_content text-center">
-                    <h2>Pendaftaran Learnify</h2>
+                    <h2>Pendaftaran Noor Course</h2>
                     <div class="page_link">
                         <a href="<?= base_url('welcome') ?>">Beranda</a>
                         <a href="<?= base_url('user/registration') ?>">Pendaftaran</a>
