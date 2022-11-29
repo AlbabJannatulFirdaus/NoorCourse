@@ -5,11 +5,7 @@
         </div>
         <div class="container">
             <div class="banner_content text-center">
-<<<<<<< HEAD
                 <h2 data-aos="fade-up" data-aos-duration="1600">Tentang Noor Course</h2>
-=======
-                <h2 data-aos="fade-up" data-aos-duration="1600">Tentang1232 Learnify</h2>
->>>>>>> bdb4748cd2a262d82cac3c50aac61f1cbfd25f47
                 <div data-aos="fade-up" data-aos-duration="1800" class="page_link">
                     <a href="<?= base_url('welcome') ?>">Beranda</a>
                     <a href="">Tentang</a>
