@@ -201,10 +201,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                         <label>Mata Pelajaran yang diajar</label>
                                         <select class="form-control selectric" name="mapel">
                                             <option>Matematika</option>
-                                            <option>IPA</option>
-                                            <option>Bahasa Inggris</option>
-                                            <option>Bahasa Indonesia</option>
-                                            <option>Pendidikan Agama Islam</option>
+                                            <option>Kimia</option>
+                                            <option>Fisika</option>
+                                            <option>Biologi</option>
                                         </select>
                                         <?= form_error('mapel', '<small class="text-danger">', '</small>'); ?>
                                     </div>
