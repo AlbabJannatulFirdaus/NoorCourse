@@ -1,16 +1,3 @@
-<!--
-@Project: Learnify
-@Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
-
-@About-Learnify :
-Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
-
 <!doctype html>
 <html lang="en">
 
@@ -93,22 +80,15 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <h1 class="display-4" style="color: black; font-family:'poppins';" data-aos="fade-down" data-aos-duration="1400">Selamat Datang
                         di Noor Course <span style="font-size: 40px;">👋🏻
                         </span> </h1>
-                    <p>Hello Students! , Ini merupakan halaman utama Noor Course! Silahkan pilih kelas yang akan kamu
-                        akses
-                        dan pilih mata pelajaran yang ingin kamu pelajari. Selamat belajar ya students!</p>
+                    <p>Hello Students! , Ini merupakan halaman pembayaran . Selamat belajar ya students!</p>
                     <hr>
                     <h4 style="line-height: 4px;" data-aos="fade-down" data-aos-duration="1700"><?php
                                                                                                 $data['user'] = $this->db->get_where('siswa', ['email' =>
                                                                                                 $this->session->userdata('email')])->row_array();
                                                                                                 echo $data['user']['nama'];
                                                                                                 ?> - Noor Course</h3>
-                        <p data-aos="fade-down" data-aos-duration="1800">Silahkan pilih kelas yang akan kamu akses
-                            dibawah
-                            ini!
+                        <p data-aos="fade-down" data-aos-duration="1800">Silahkan pilih metode pembayaran dibawah ini
                         </p>
-
-
-                        <p>Untuk pembayaran klik <a href=" <?= base_url('user/pembayaran') ?>"> disini</p>
                 </div>
             </div>
         </div>
@@ -118,46 +98,20 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
     <br>
 
-
-    <!-- Start Class Card -->
+    <!-- Pembayaran Start-->
     <div class="container">
-        <div class="row mt-4 mb-5 justify-content-center">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900" data-aos="fade-right">
-                        <a href="<?= base_url('user/kelas10') ?>">
-                            <div class="card-kelas text-center">
-                                <img src="<?= base_url('assets/') ?>img/kelas10.png" style="object-fit: cover;" class="card-img-top img-fluid" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900" data-aos="fade-down">
-                        <a href="<?= base_url('user/kelas11') ?>">
-                            <div class="card-kelas">
-                                <img src="<?= base_url('assets/') ?>img/kelas11.png" class="card-img-top" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-left">
-                        <a href="<?= base_url('user/kelas12') ?>">
-                            <div class="card-kelas">
-                                <img src="<?= base_url('assets/') ?>img/kelas12.png" class="card-img-top" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="bg-white mx-auto p-4 " >
+            <h3 class="text-center">SCAN DISINI</h3>
+            <br> <br>
+            <img src="<?= base_url('assets/') ?>img/QR.png" class="rounded mx-auto d-block" style="width: 300px;" alt="..." >
+
+            <br><br>
+            <p class="text-center">SCAN SEKARANG</p>
+            <br><br>
+
+            <h5>Kirim bukti pembayaran <a href="https://chat.whatsapp.com/JG4NJzUdLly2un78QVNTgY">disini</a></h5>
+            <button type="button" class="btn btn-danger text-center"><a href=" <?= base_url('user') ?>"></a>Kembali</button>
+
+
         </div>
     </div>
-    <!-- End Class Card -->
-
-
-    <br>
-
-
-    <!-- Start Animate On Scroll -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- End Animate On Scroll -->
