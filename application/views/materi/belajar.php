@@ -121,6 +121,10 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         </div>
     </div>
     <!-- End Video Player -->
+    <hr><hr>
+    
+    
+
     <!-- Start Deskripsi Materi -->
     <div class="container">
         <div class="row mt-4">
@@ -131,13 +135,25 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                         <hr style="background-color: white;">
                         <!-- <h5 class="card-text"><?= $detail->nama_mapel; ?></h5> -->
                         <p class="card-text"> Deskripsi materi pelajaran : <br> <?= $detail->deskripsi; ?></p>
+                        <hr style="background-color: white;">
+                        <div class="form-group">
+		                    <label for="berkas" class="col-sm-2  control-label">Upload Berkas <span class="text-danger">*</span></label>
+			                <div class="col-sm-8">
+		                        <input type="file" name="berkas" id="berkas" required>
+                                <span class="help-block">Berkas harus bertipe PDF.</span>
+			                </div>
+                            <br>
+                            <div class="col-sm-2">
+				        	    <a href="<?=base_url('media');?>" <button type="submit" class="btn btn-outline-secondary">
+                                <i class="fa fa-save"></i> Simpan</button></a>
+            		        </div>
+                        </div>
+                        <hr style="background-color: white;">
                     </div>
-                </div>
             </div>
         </div>
     </div>
     <!-- End Deskripsi Materi -->
-
 
     <br>
 

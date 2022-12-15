@@ -58,7 +58,11 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                                                                     ?></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
+<<<<<<< HEAD
                             <div class="dropdown-title">Admin - Noor Course</div>
+=======
+                            <div class="dropdown-title">Admin - Noorcourse</div>
+>>>>>>> origin/Akbar
                             <a href="<?= base_url('welcome/logout') ?>" class="dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
