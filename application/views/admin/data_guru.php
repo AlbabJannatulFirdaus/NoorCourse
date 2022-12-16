@@ -78,14 +78,14 @@
                                 <li><a class="nav-link" href="<?= base_url('admin/data_siswa') ?>">Data Siswa</a></li>
                             </ul>
                         </li>
-                        <li class="menu-header">Management Guru</li>
+                        <li class="menu-header">Management Mentor</li>
                         <li class="nav-item dropdown active">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
-                                <span>Guru</span></a>
+                                <span>Mentor</span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="nav-link" href="<?= base_url('admin/data_guru') ?>">Data Guru</a>
+                                <li><a class="nav-link" href="<?= base_url('admin/data_guru') ?>">Data Mentor</a>
                                 </li>
-                                <li><a class="nav-link" href="<?= base_url('admin/add_guru') ?>">Tambah Data Guru</a>
+                                <li><a class="nav-link" href="<?= base_url('admin/add_guru') ?>">Tambah Data Mentor</a>
                                 </li>
                             </ul>
                         </li>
@@ -134,15 +134,11 @@
                 <section class="section">
                     <div class="card" style="width:100%;">
                         <div class="card-body">
-<<<<<<< HEAD
-                            <h2 class="card-title" style="color: black;">Management Data Guru NoorCourse</h2>
-=======
-                            <h2 class="card-title" style="color: black;">Management Data Guru Noor Course</h2>
->>>>>>> whendric
+                            <h2 class="card-title" style="color: black;">Management Data Mentor NoorCourse</h2>
                             <hr>
-                            <p class="card-text"> After I ran into Helen at a restaurant, I realized she was just office pretty drop-dead date put in in a deck for our standup today. Who's responsible for the ask for this request? who's responsible for the ask for this request? but moving the goalposts gain traction. </p>
+                            <p class="card-text">  </p>
                             <a href="<?= base_url('admin/add_guru') ?>" class="btn btn-success">Tambah
-                                Data Guru ⭢</a>
+                                Data Mentor ⭢</a>
                         </div>
                     </div>
                     <div class="row">
@@ -153,7 +149,7 @@
                                         <thead class="thead-light">
                                             <tr class="text-center">
                                                 <th scope="col">NIP</th>
-                                                <th scope="col">Nama Guru</th>
+                                                <th scope="col">Nama Mentor</th>
                                                 <th scope="col">Email</th>
                                                 <th scope="col">Nama Mapel</th>
                                                 <th scope="col">Detail</th>
