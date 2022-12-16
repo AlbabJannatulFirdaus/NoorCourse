@@ -134,9 +134,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <div class="">
                         <div class="card" style="width:100%;">
                             <div class="card-body">
-                                <h2 class="card-title" style="color: black;">Tambah Data Guru</h2>
+                                <h2 class="card-title" style="color: black;">Tambah Data Mentor</h2>
                                 <hr>
-                                <p class="card-text"> After I ran into Helen at a restaurant, I realized she was just office pretty drop-dead date put in in a deck for our standup today. Who's responsible for the ask for this request? who's responsible for the ask for this request? but moving the goalposts gain traction.
+                                <p class="card-text"> <p> Pendaftaran mentor hanya dapat dilakukan oleh admin </p>
                                 </p>
                                 <a href="#detail" class="btn btn-success">Saya paham dan
                                     ingin melanjutkan ⭢</a>
@@ -147,7 +147,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <div id="detail" class="card card-success">
                         <div class="col-md-12 text-center">
                             <p class="registration-title font-weight-bold display-4 mt-4" style="color:black; font-size: 50px;">
-                                Pendaftaran Guru</p>
+                                Pendaftaran Mentor</p>
                             <p style="line-height:-30px;margin-top:-20px;">Silahkan isi data data yang diperlukan
                                 dibawah </p>
                             <hr>
