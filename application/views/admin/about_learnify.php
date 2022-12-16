@@ -1,15 +1,4 @@
-<!--
-@Project: Learnify
-@Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
 
-@About-Learnify :
-Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -85,6 +74,17 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 								<li><a class="nav-link" href="<?= base_url('admin/data_siswa') ?>">Data Mahasiswa</a></li>
 							</ul>
 						</li>
+						<li class="menu-header">Management kelas</li>
+                        <li class="nav-item dropdown active">
+                            <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
+                                <span>Kelas</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" href="<?= base_url('admin/data_kelas') ?>">Data Kelas</a>
+                                </li>
+                                <!-- <li><a class="nav-link" href="<?= base_url('admin/add_guru') ?>">Tambah Data Guru</a>
+                                </li> -->
+                            </ul>
+                        </li>
 						<li class="menu-header">Management Mentor</li>
 						<li class="nav-item dropdown">
 							<a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
@@ -131,18 +131,18 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 					<div class="section-header">
 						<h1 style="font-size: 27px; letter-spacing:-0.5px; color:black;">Tentang Project Noor Course </h1>
 					</div>
-					<div class="">
-						<video class="afterglow" autoplay id="myvideo" width="1280" height="720">
+					<!-- <div class="">
+						<!-- <video class="afterglow" autoplay id="myvideo" width="1280" height="720">
 							<source type="video/mp4" src="<?= base_url('assets/videos/') ?>trailer.mp4" />
 						</video>
-					</div>
+					</div> -->
 					<br>
 					<div class="">
 						<div class="card" style="width:100%;">
 							<div class="card-body">
 								<h2 class="card-title" style="color: black;">Tentang Noor Course</h2>
 								<hr>
-								<p class="card-text">Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf. <br> Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis. <br> Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. </p>
+								<p class="card-text">Web Edukasi Open Source yang dibuat oleh Tim Project Teknologi Informasi Kelompok 2 . <br> Noor Course adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis. <br> NoorCourse dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. </p>
 							</div>
 						</div>
 					</div>

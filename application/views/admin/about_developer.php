@@ -1,4 +1,4 @@
-<!--
+<!-- <!-- 
 @Project: Learnify
 @Programmer: Syauqi Zaidan Khairan Khalaf
 @Website: https://linktr.ee/syauqi
@@ -11,7 +11,7 @@ yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
 guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 -->
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,15 +19,15 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
 	<title>Tentang Developer - Noor Course</title>
 	<!-- General CSS Files -->
-	<link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
+	<!-- <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.png" type="image/png">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<!-- Template CSS -->
+	Template CSS -->
 	<link rel="stylesheet" href="<?= base_url('assets/') ?>stisla-assets/css/style.css">
 	<link rel="stylesheet" href="<?= base_url('assets/') ?>stisla-assets/css/components.css">
-</head>
+</head> -->
 
 <body>
 
@@ -96,6 +96,17 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 
 							</ul>
 						</li>
+						<li class="menu-header">Management kelas</li>
+                        <li class="nav-item dropdown active">
+                            <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
+                                <span>Kelas</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" href="<?= base_url('admin/data_kelas') ?>">Data Kelas</a>
+                                </li>
+                                <!-- <li><a class="nav-link" href="<?= base_url('admin/add_guru') ?>">Tambah Data Guru</a>
+                                </li> -->
+                            </ul>
+                        </li>
 						<li class="menu-header">Management Materi</li>
 						<li class="nav-item dropdown">
 							<a href="#" class="nav-link has-dropdown"><i class="fas fa-book"></i>
@@ -126,7 +137,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 			<!-- End Sidebar -->
 
 			<!-- Main Content -->
-			<div class="main-content">
+			<!-- <div class="main-content">
 				<section class="section">
 					<div class="">
 						<div class="hero text-white hero-bg-image" data-background="https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=649&q=80">
@@ -147,7 +158,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 					</div>
 					<br>
 				</section>
-			</div>
+			</div> -->
 			<!-- End Main Content -->
 
 			<!-- Start Footer -->
@@ -176,4 +187,4 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 	<!-- Page Specific JS File -->
 </body>
 
-</html>
+</html> -->

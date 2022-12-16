@@ -1,15 +1,4 @@
-<!--
-@Project: Learnify
-@Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
 
-@About-Learnify :
-Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -57,11 +46,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                                                                     ?></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-<<<<<<< HEAD
                             <div class="dropdown-title">Admin - NoorCourse</div>
-=======
-                            <div class="dropdown-title">Admin - Noor Course</div>
->>>>>>> whendric
                             <a href="<?= base_url('welcome/logout') ?>" class="dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
@@ -102,6 +87,17 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                 </li>
                                 <li><a class="nav-link" href="<?= base_url('admin/add_guru') ?>">Tambah Data Guru</a>
                                 </li>
+                            </ul>
+                        </li>
+                        <li class="menu-header">Management kelas</li>
+                        <li class="nav-item dropdown active">
+                            <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
+                                <span>Kelas</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" href="<?= base_url('admin/data_kelas') ?>">Data Kelas</a>
+                                </li>
+                                <!-- <li><a class="nav-link" href="<?= base_url('admin/add_guru') ?>">Tambah Data Guru</a>
+                                </li> -->
                             </ul>
                         </li>
                         <li class="menu-header">Management Materi</li>
