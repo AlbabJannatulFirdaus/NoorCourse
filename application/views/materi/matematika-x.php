@@ -97,7 +97,7 @@
         <div class="row mt-4">
             <?php foreach ($materi as $u) { ?>
                 <div class="col-md-10 mb-4 mx-auto " data-aos="fade-down" data-aos-duration="1200" style=:width:100%;">
-                    <div class="card materi w-150 border-0 bg:white " >
+                    <div class="card materi w-150 border-0 " >
                         <div class="card-body p-5">
                             <p class=" card-text">
                                 <?= substr($u->deskripsi, 0, 100); ?>&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.&nbsp;.
