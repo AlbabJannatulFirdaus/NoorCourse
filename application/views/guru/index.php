@@ -131,6 +131,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <a href="<?=base_url('guru/add_materi')?>">
                 <img alt="Logo" src="<?=base_url('assets')?>/img/logo.png" width="90px;" />
             </a>
+            <a href="<?=base_url('guru/add_tugas')?>">
+                <img alt="Logo" src="<?=base_url('assets')?>/img/logo.png" width="90px;" />
+            </a>
         </div>
         <div class="kt-header-mobile__toolbar">
             <button class="kt-header-mobile__toolbar-toggler kt-header-mobile__toolbar-toggler--left"
@@ -194,13 +197,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                     class="kt-menu__link-icon la la-commenting"></i><span
                                                     class="kt-menu__link-text">Materi</span></a></li>
                                         <li class="kt-menu__item " aria-haspopup="true"><a
-                                                href="<?=base_url('guru/add_materi')?>" class="kt-menu__link "><i
+                                                href="<?=base_url('guru/add_tugas')?>" class="kt-menu__link "><i
                                                     class="kt-menu__link-icon la la-commenting"></i><span
-                                                    class="kt-menu__link-text">Tugas</span></a></li>
-                                        <li class="kt-menu__item " aria-haspopup="true"><a
-                                                href="<?=base_url('guru/add_materi')?>" class="kt-menu__link "><i
-                                                    class="kt-menu__link-icon la la-commenting"></i><span
-                                                    class="kt-menu__link-text">Ujian</span></a></li>                        
+                                                    class="kt-menu__link-text">Tugas</span></a></li>                       
                                     </ul>
                                 </div>
                             </li>
@@ -239,13 +238,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                         class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
                                                         class="kt-menu__link-text">Tambah Materi</span></a></li>
                                         <li class="kt-menu__item " aria-haspopup="true"><a href="javascript:;"
-                                                    class="kt-menu__link "><i
+                                                    href="<?=base_url('guru/add_tugas')?>" class="kt-menu__link "><i
                                                         class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
-                                                        class="kt-menu__link-text">Tambah Tugas</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="javascript:;"
-                                                    class="kt-menu__link "><i
-                                                        class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
-                                                        class="kt-menu__link-text">Tambah Ujian</span></a></li>  
+                                                        class="kt-menu__link-text">Tambah Tugas</span></a></li> 
                                         </ul>
                                     </div>
                                 </li>
