@@ -147,4 +147,14 @@ class User extends CI_Controller
         }
     }
 
+    public function pembayaran()
+    {
+        $data['user'] = $this->db->get_where('siswa', ['email' =>
+            $this->session->userdata('email')])->row_array();
+
+        $this->load->view('user/pembayaran');
+        $this->load->view('template/footer');
+    }
+
+
 }
