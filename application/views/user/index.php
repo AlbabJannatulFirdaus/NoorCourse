@@ -106,6 +106,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                             dibawah
                             ini!
                         </p>
+
+
+                        <p>Untuk pembayaran klik <a href=" <?= base_url('user/pembayaran') ?>"> disini</p>
                 </div>
             </div>
         </div>
@@ -116,65 +119,37 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <br>
 
 
-<!--================Courses Area =================-->
-<div class="main_title p-4">
-            <h2 data-aos="fade-up" data-aos-duration="1600">Pelajaran Yang Tersedia di Noor Course</h2>
-            <p data-aos="fade-up" data-aos-duration="1800">Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free.</p>
+    <!-- Start Class Card -->
+    <div class="container">
+        <div class="row mt-4 mb-5 justify-content-center">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900" data-aos="fade-right">
+                        <a href="<?= base_url('user/kelas10') ?>">
+                            <div class="card-kelas text-center">
+                                <img src="<?= base_url('assets/') ?>img/kelas10.png" style="object-fit: cover;" class="card-img-top img-fluid" alt="...">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900" data-aos="fade-down">
+                        <a href="<?= base_url('user/kelas11') ?>">
+                            <div class="card-kelas">
+                                <img src="<?= base_url('assets/') ?>img/kelas11.png" class="card-img-top" alt="...">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-left">
+                        <a href="<?= base_url('user/kelas12') ?>">
+                            <div class="card-kelas">
+                                <img src="<?= base_url('assets/') ?>img/kelas12.png" class="card-img-top" alt="...">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-<div data-aos="fade-up" data-aos-duration="1600" id="fisdas" class="container-2 d-flex align-items-center justify-content-center">
-  <div data-aos="fade-up" data-aos-duration="2000" class="main1 d-flex flex-sm-column flex-lg-row align-items-center justify-content-between">
-    <div data-aos="fade-up" data-aos-duration="1800" class="w-100 p-3 d-sm-flex d-lg-block flex-sm-column align-items-center justify-content-center">
-      <h1>Fisika Dasar</h1>
-      <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
-      <button type="button" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#exampleModalCenter" >Gabung Sekarang</button>
     </div>
-    <div class="landingpage-img-2 w-75">
-      <img class="w-100" src="<?= base_url('assets/') ?>img/fisika.png">
-    </div>
-  </div>
-</div>
-
-<div data-aos="fade-up" data-aos-duration="1600" id="kimdas" class="container-2 d-flex align-items-center justify-content-center">
-  <div data-aos="fade-up" data-aos-duration="2200" class="main1 d-flex flex-sm-column flex-lg-row-reverse align-items-center justify-content-between">
-    <div data-aos="fade-up" data-aos-duration="1800" class="w-100 p-3 d-sm-flex d-lg-block flex-sm-column align-items-center justify-content-center">
-      <h1>Fisika Dasar</h1>
-      <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
-      <button type="button" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#exampleModalCenter" >Gabung Sekarang</button>
-    </div>
-    <div class="landingpage-img-2 w-75">
-      <img class="w-100" src="<?= base_url('assets/') ?>img/fisika.png">
-    </div>
-  </div>
-</div>
-
-<div data-aos="fade-up" data-aos-duration="1600" id="matdas" class="container-3 d-flex align-items-center justify-content-center">
-  <div data-aos="fade-up" data-aos-duration="2000" class="color-white main1 d-flex flex-sm-column flex-lg-row align-items-center justify-content-between">
-    <div data-aos="fade-up" data-aos-duration="1800" class="w-100 p-3 d-sm-flex d-lg-block flex-sm-column align-items-center justify-content-center">
-      <h1>Matematika Dasar</h1>
-      <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
-      <button type="button" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#exampleModalCenter" >Gabung Sekarang</button>
-    </div>
-    <div class="landingpage-img-2 w-75">
-      <img class="w-100" src="<?= base_url('assets/') ?>img/fisika.png">
-    </div>
-  </div>
-</div>
-
-<div data-aos="fade-up" data-aos-duration="1600" id="biodas" class="container-2 d-flex align-items-center justify-content-center">
-  <div data-aos="fade-up" data-aos-duration="2000" class="main1 d-flex flex-sm-column flex-lg-row-reverse align-items-center justify-content-between">
-    <div class="w-100 p-3 d-sm-flex d-lg-block flex-sm-column align-items-center justify-content-center">
-      <h1 data-aos="fade-up" data-aos-duration="2000" >Biologi Dasar</h1>
-      <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
-      <button type="button" class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#exampleModalCenter" >Gabung Sekarang</button>
-    </div>
-    <div class="landingpage-img-2 w-75">
-      <img class="w-100" src="<?= base_url('assets/') ?>img/fisika.png">
-    </div>
-  </div>
-</div>
-</div>
-<!--================End Courses Area =================-->
+    <!-- End Class Card -->
 
 
     <br>
