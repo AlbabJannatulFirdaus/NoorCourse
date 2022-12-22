@@ -102,17 +102,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                 </li>
                             </ul>
                         </li>
-                        <li class="menu-header">Management kelas</li>
-                        <li class="nav-item dropdown active">
-                            <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
-                                <span>Kelas</span></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="nav-link" href="<?= base_url('admin/data_kelas') ?>">Data Kelas</a>
-                                </li>
-                                <!-- <li><a class="nav-link" href="<?= base_url('admin/add_guru') ?>">Tambah Data Guru</a>
-                                </li> -->
-                            </ul>
-                        </li>
+                         
                         <li class="menu-header">Management Materi</li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-book"></i>
