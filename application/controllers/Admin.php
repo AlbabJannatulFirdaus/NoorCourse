@@ -74,11 +74,13 @@ class Admin extends CI_Controller
         $id = $this->input->post('id');
         $nama = $this->input->post('nama');
         $email = $this->input->post('email');
+        $is_active = $this->input->post('is_active');
         $gambar = $_FILES['image']['name'];
 
         $data = array(
             'nama' => $nama,
             'email' => $email,
+            'is_active' => $is_active,
         );
 
         $config['allowed_types'] = 'jpg|png|gif|jfif';

@@ -172,7 +172,6 @@
                                 <div class="form-group">
                                     <input type="hidden" name="id" value="<?= $u->id ?>">
                                     <input type="hidden" name="password" value="<?= $u->password ?>">
-                                    <input type="hidden" name="is_active" value="<?= $u->is_active ?>">
                                     <input type="hidden" name="date_created" value="<?= $u->date_created ?>">
                                     <label for="exampleInputEmail1" class="font-weight-bold" style="font-size: 20px;">Nama</label>
                                     <input type=" text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="nama" value="<?= $u->nama ?>">
@@ -181,6 +180,11 @@
                                     <label for="exampleInputPassword1" class="font-weight-bold" style="font-size: 20px;">Email</label>
                                     <input type="email" class="form-control" readonly name="email" value="<?= $u->email ?>" id="exampleInputPassword1">
                                 </div>
+                                <div class="form-group">
+                                <label for="exampleInputEmail1" class="font-weight-bold" style="font-size: 20px;">Status Akun</label>
+                                <input type = "text" name="is_active" value="<?= $u->is_active ?>">
+                                </div>
+                            
                                 <input type="submit" value="Update ⭢" class="btn btn-success btn-block">
                             </div>
                         <?php } ?>
