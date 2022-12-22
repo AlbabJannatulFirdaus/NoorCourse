@@ -142,7 +142,7 @@
 <section class="team_area p_20">
 	<div class="container">
 		<div class="main_title">
-			<h2 data-aos="fade-up" data-aos-duration="1800">Testimonial Para Siswa Learnify</h2>
+			<h2 data-aos="fade-up" data-aos-duration="1800">Testimonial Para Siswa Noor Course</h2>
 			<p data-aos="fade-up" data-aos-duration="2000">Merciful revaluation burying love ultimate value inexpedient ubermensch. Holiest madness victorious morality hope endless christian madness. Love dead fearful transvaluation marvelous. Oneself right ideal abstract endless faith deceptions zarathustra grandeur law ubermensch free.</p>
 		</div>
 		<section class="testimonials_area p_20">
