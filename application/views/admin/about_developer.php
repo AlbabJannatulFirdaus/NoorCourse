@@ -1,15 +1,5 @@
-<!-- <!-- 
-@Project: Learnify
-@Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
 
-@About-Learnify :
-Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
+
 
 <!-- <!DOCTYPE html>
 <html lang="en">
@@ -139,21 +129,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 			<!-- Main Content -->
 			<!-- <div class="main-content">
 				<section class="section">
-					<div class="">
-						<div class="hero text-white hero-bg-image" data-background="https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=649&q=80">
-							<div class="col-md-4 mx-auto rounded-circle bg-white p-3" style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
-								<img src="<?= base_url('assets/img/') ?>Syauqi.jpg" class="card-img-top rounded-circle img-responsive" alt="...">
-							</div>
-						</div>
-					</div>
 					<br>
 					<div class="">
 						<div class="card" style="width:100%;">
-							<div class="card-body">
-								<h2 class="card-title" style="color: black;">Syauqi Zaidan Khairan Khalaf</h2>
-								<hr>
-								<p class="card-text">Perfectionist Web Developer with one years of experience as a Web Developer and Web Designer. Skilled at Designing and developing Websites. Excellent written and oral communication skills; capable of explaining complex software issues in easy-to-understand terms. </p>
-							</div>
 						</div>
 					</div>
 					<br>
@@ -164,7 +142,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 			<!-- Start Footer -->
 			<footer class="main-footer">
 				<div class="text-center">
-					Copyright &copy; 2022 <div class="bullet"></div><a href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
+					Copyright &copy; 2022 <div class="bullet"></div><a href="https://github.com/syauqi"></a>
 				</div>
 			</footer>
 			<!-- End Footer -->

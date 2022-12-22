@@ -193,13 +193,9 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                                     class="kt-menu__link-icon la la-commenting"></i><span
                                                     class="kt-menu__link-text">Materi</span></a></li>
                                         <li class="kt-menu__item " aria-haspopup="true"><a
-                                                href="<?=base_url('guru/add_materi')?>" class="kt-menu__link "><i
+                                                href="<?=base_url('guru/add_tugas')?>" class="kt-menu__link "><i
                                                     class="kt-menu__link-icon la la-commenting"></i><span
                                                     class="kt-menu__link-text">Tugas</span></a></li>
-                                        <li class="kt-menu__item " aria-haspopup="true"><a
-                                                href="<?=base_url('guru/add_materi')?>" class="kt-menu__link "><i
-                                                    class="kt-menu__link-icon la la-commenting"></i><span
-                                                    class="kt-menu__link-text">Ujian</span></a></li> 
                                     </ul>
                                 </div>
                             </li>
@@ -240,11 +236,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                                             <li class="kt-menu__item " aria-haspopup="true"><a href="javascript:;"
                                                     class="kt-menu__link "><i
                                                         class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
-                                                        class="kt-menu__link-text">Tambah Tugas</span></a></li>
-                                            <li class="kt-menu__item " aria-haspopup="true"><a href="javascript:;"
-                                                    class="kt-menu__link "><i
-                                                        class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
-                                                        class="kt-menu__link-text">Tambah Ujian</span></a></li>            
+                                                        class="kt-menu__link-text">Tambah Tugas</span></a></li>            
                                         </ul>
                                     </div>
                                 </li>
@@ -301,7 +293,7 @@ echo $data['user']['nama_guru'];
                                                 Tambah data materi
                                             </div>
                                             <div class="kt-notification__item-time">
-                                                Tambah Materi Learnify
+                                                Tambah Materi Noor Course
                                             </div>
                                         </div>
                                     </a>

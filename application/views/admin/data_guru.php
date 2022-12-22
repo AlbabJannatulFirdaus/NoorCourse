@@ -46,7 +46,7 @@
                                                                                                     ?></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <div class="dropdown-title">Admin - NoorCourse</div>
+                            <div class="dropdown-title">Admin - Noor Course</div>
                             <a href="<?= base_url('welcome/logout') ?>" class="dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
@@ -134,7 +134,7 @@
                 <section class="section">
                     <div class="card" style="width:100%;">
                         <div class="card-body">
-                            <h2 class="card-title" style="color: black;">Management Data Mentor NoorCourse</h2>
+                            <h2 class="card-title" style="color: black;">Management Data Guru Noor Course</h2>
                             <hr>
                             <p class="card-text">  </p>
                             <a href="<?= base_url('admin/add_guru') ?>" class="btn btn-success">Tambah

@@ -131,18 +131,13 @@
 					<div class="section-header">
 						<h1 style="font-size: 27px; letter-spacing:-0.5px; color:black;">Tentang Project Noor Course </h1>
 					</div>
-					<!-- <div class="">
-						<!-- <video class="afterglow" autoplay id="myvideo" width="1280" height="720">
-							<source type="video/mp4" src="<?= base_url('assets/videos/') ?>trailer.mp4" />
-						</video>
-					</div> -->
 					<br>
 					<div class="">
 						<div class="card" style="width:100%;">
 							<div class="card-body">
 								<h2 class="card-title" style="color: black;">Tentang Noor Course</h2>
 								<hr>
-								<p class="card-text">Web Edukasi Open Source yang dibuat oleh Tim Project Teknologi Informasi Kelompok 2 . <br> Noor Course adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis. <br> NoorCourse dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. </p>
+								<p class="card-text">Web Edukasi Open Source yang dibuat oleh Kelompok 2 PTI <br> NoorCourse adalah Web edukasi yang dilengkapi video, materi dan sistem ujian yang tersedia secara gratis. <br> NoorCourse dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. </p>
 							</div>
 						</div>
 					</div>
@@ -153,7 +148,7 @@
 			<!-- Start Footer -->
 			<footer class="main-footer">
 				<div class="text-center">
-					Copyright &copy; 2022 <div class="bullet"></div><a href="https://github.com/syauqi">Syauqi Zaidan Khairan Khalaf</a>
+					Copyright &copy; 2022 <div class="bullet"></div><a href="https://github.com/syauqi"></a>
 				</div>
 			</footer>
 			<!-- End Footer -->
